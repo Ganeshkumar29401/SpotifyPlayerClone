@@ -82,6 +82,7 @@ button:focus {
 button:active{
   border: none;
   outline: none;
+  background: none;
 }
 
 i {
