@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dummy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/guitar.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="music-container">
+      <div class="music-container-child">
+        <div class="header">
+          <p><span id = "head">PLAYING FROM PLAYLIST</span><br><span id="legend">Legend SPB 90's Tamil</span></p>
+        </div>
+        <div class="music-img">
+          <img
+            src="./images/Agaram ippo.jpg"
+            alt="song_img"
+            id="image"
+          />
+        </div>
+          <div id="song_name">
+            <h3 id="title">
+              Agaram ippo
+            </h3>
+            <marquee width="100%" direction="left" height="30%" id="marquee" scrollamount="5">
+            <p id="singer">S.P.Balasubramanyam</p>
+          </marquee>
+          </div>
+  
+        <div class="progress_container">
+          <div class="progress">
+          </div>
+        </div>
+
+        <div class="duration">
+          <span class="currentDur">0</span>
+          <span class="fullLeng">0</span>
+        </div>
+  
+        <audio src="./musics/Agaram Ippo.mp3" id="audio" preload="auto"></audio>
+  
+        <div class="navigation">
+          <button id="vol" class="vol-btn">
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <button id="prev" class="prev-btn">
+            <i class="fas fa-step-backward"></i>
+          </button>
+          <button id="play" class="play-btn">
+            <i class="fas fa-play" id="playpause"></i>
+          </button>
+          <button id="next" class="next-btn">
+            <i class="fas fa-step-forward"></i>
+          </button>
+          <button id="like" class="like-btn colored-like">
+            <i class="fas fa-heart"></i>
+          </button>
+        </div>    
+    </div>
+    </div>
+  </body>
+</html>
