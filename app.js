@@ -21,16 +21,10 @@ class MainSupply {
 
   loadSong(song) {
     this.title.textContent = song;
-    if(song === "Agaram ippo" || song === "Kanne Kalai Mane"){
+    if(song === "Kanne Kalai Mane"){
       singer.textContent = "K.J.Yesudas";
-    }else if(song === "Chinna Chinna"){
-      singer.textContent = "S.P.Balasubramanyam,Anuradha";
-    }else if(song === ("Oruvan Oruvan Mudhalali" || "Vannam konda" || "Konji Konji Male" || "Komatha")){
+    }else if(song === "Oruvan Oruvan Mudhalali"){
       singer.textContent = "S.P.Balasubramanyam";
-    }else if(song == ("Koondukkulla" || "Koopital Malar")){
-      singer.textContent = "S.P.Balasubramanyam,S.Janaki";
-    }else if(song === "Muthumani Maalai"){
-      singer.textContent = "S.P.Balasubramanyam,P.Susheela";
     }else {
       singer.textContent = "S.P.Balasubramanyam,K.S.Chitra";
     }
