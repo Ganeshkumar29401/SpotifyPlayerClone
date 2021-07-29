@@ -8,7 +8,7 @@ class MainSupply {
     this.audio = document.getElementById("audio");
     this.songIndex = this.generateRandomNum(0, 3);
     this.songs = [
-      "Kanne Kalai Mane",
+      "Chinna Chinna",
       "Oruvan Oruvan Mudhalali",
       "Thoda Thoda",
     ];
@@ -22,9 +22,7 @@ class MainSupply {
   loadSong(song) {
     this.title.textContent = song;
     console.log(song);
-    if(song === "Kanne Kalai Mane"){
-      singer.textContent = "K.J.Yesudas";
-    }else if(song === "Oruvan Oruvan Mudhalali"){
+    if(song === "Chinna Chinna" || song === "Oruvan Oruvan Mudhalali"){
       singer.textContent = "S.P.Balasubramanyam";
     }else {
       singer.textContent = "S.P.Balasubramanyam,K.S.Chitra";
