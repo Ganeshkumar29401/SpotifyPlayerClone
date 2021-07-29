@@ -21,6 +21,7 @@ class MainSupply {
 
   loadSong(song) {
     this.title.textContent = song;
+    console.log(song);
     if(song === "Kanne Kalai Mane"){
       singer.textContent = "K.J.Yesudas";
     }else if(song === "Oruvan Oruvan Mudhalali"){
