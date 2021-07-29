@@ -6,21 +6,9 @@ class MainSupply {
     this.singer = document.getElementById("singer");
     this.image = document.getElementById("image");
     this.audio = document.getElementById("audio");
-    this.songIndex = this.generateRandomNum(0, 14);
+    this.songIndex = this.generateRandomNum(0, 3);
     this.songs = [
-      "Agaram ippo",
-      "Moonumolam",
-      "Sembaruthi",
       "Kanne Kalai Mane",
-      "Komatha",
-      "Konji Konji Male",
-      "Idho Idho En Pallavi",
-      "Koondukkulla",
-      "Koopital Malar",
-      "Muthamizhe",
-      "Muthumani Maalai",
-      "Chinna Chinna",
-      "Vannam konda",
       "Oruvan Oruvan Mudhalali",
       "Thoda Thoda",
     ];
