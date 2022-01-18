@@ -11,6 +11,7 @@ class MainSupply {
       "Chinna Chinna",
       "Oruvan Oruvan Mudhalali",
       "Thoda Thoda",
+      "Unnaivida", 
     ];
   }
 
@@ -24,6 +25,8 @@ class MainSupply {
     console.log(song);
     if(song === "Chinna Chinna" || song === "Oruvan Oruvan Mudhalali"){
       singer.textContent = "S.P.Balasubramanyam";
+    }else if( song === "Unnaivida"){
+      this.singer.textContent = "Kamal Hasan,Shreya Goshal";
     }else {
       singer.textContent = "S.P.Balasubramanyam,K.S.Chitra";
     }
