@@ -1,4 +1,4 @@
-# Table of contents
+# #Table of contents
 * [SpotifyPlayerClone](#general-info)
 * [Technologies](#technologies)
 * [Result](#result)
