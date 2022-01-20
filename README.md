@@ -1,5 +1,5 @@
 # Table of contents
-* [SpotifyPlayerClone](#general-info)
+* [SpotifyPlayerClone](#spotifyplayerclone)
 * [Technologies](#technologies)
 * [Result](#result)
 
