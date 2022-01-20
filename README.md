@@ -7,9 +7,9 @@
 
 A simple web spotify music player clone
 
-#Technologies
+# Technologies
 
 HTML5,CSS3,Javascript
 
-#Result
+# Result
 
